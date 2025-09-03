@@ -1,0 +1,16 @@
+pandas
+numpy
+tqdm
+matplotlib
+scikit-learn
+psutil
+psrecord
+kneed
+joblib
+pyts
+opencv-python
+scikit-image
+scipy
+scapy
+statsmodels
+aiohttp
