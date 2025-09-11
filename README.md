@@ -14,8 +14,6 @@ Experiments were conducted on a high-performance server with the following speci
 - **Storage:**  
   - 2 × 1.2 TB 10K RPM SAS HDDs  
   - 1 × 480 GB Intel DC S3500 SSD  
-- **NICs:**  
-  - Dual-port Intel X520-DA2 10 GbE  
 - **OS:** Ubuntu 20.04 (UBUNTU20-64-STD)
 
 ---
