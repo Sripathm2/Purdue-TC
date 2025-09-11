@@ -41,7 +41,7 @@ These systematic variations produce a **rich dataset** for evaluating traffic cl
 
 ---
 
-## 🚀 Setup & Installation
+## Setup & Installation
 
 ### 1. Install Dependencies
 
@@ -60,10 +60,10 @@ Update the **base directory** in `controlled_config.ini`:
 
 ```ini
 [PATHS]
-base = /path/to/your/data
+base = /path/to/REPO
 ```
 
-This path will be used for mounting volumes such as FTP, Web, Video Streaming, and Conferencing traces.
+This path will be used for mounting volumes such as FTP, Web, Video Streaming, and Conferencing traces. This path is where the repository is located.
 
 ### 3. Run Experiments
 
@@ -78,14 +78,6 @@ This script will:
 - Deploy client/server containers with applications  
 - Execute workloads across configurations  
 - Save packet traces into the configured dataset paths  
-
----
-
-## Usage
-
-- Collected PCAPs are stored in respective directories (`ftp/`, `web/`, `video_streaming/`, `video_conferencing/`).  
-- Use parsing scripts (in `/Python/`) to preprocess traces into flow-level datasets.  
-- Data is suitable for evaluating models like **mini-FlowPic** and **Rosetta** under diverse conditions.
 
 ---
 
